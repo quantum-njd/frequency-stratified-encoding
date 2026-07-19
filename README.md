@@ -13,7 +13,7 @@ associated with frequency-stratified quantum encoding.
 Create the local environment with:
 
 ```bash
-./setup_python_env.sh
+sh setup_python_env.sh
 ```
 
 ## Run
@@ -21,7 +21,7 @@ Create the local environment with:
 Run the complete numerical suite with:
 
 ```bash
-./run_experiments.sh
+sh run_experiments.sh
 ```
 
 The scripts create the following directories locally:
@@ -41,7 +41,7 @@ coefficient-realization, training, and sensitivity calculations.
 - `experiments/run_all.py`: fixed execution order for the complete suite.
 
 Random seeds, thresholds, schedules, and shared comparison settings are defined
-in the source files and recorded in the generated outputs.
+in the source files, with key settings also recorded in the generated configuration files.
 
 No external data sets or network services are required after the Python
 dependencies have been installed.
