@@ -1,0 +1,10 @@
+.venv/
+cache/
+data/
+figures/
+logs/
+mplconfig/
+__pycache__/
+*.py[cod]
+.DS_Store
+.idea/
